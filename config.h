@@ -39,9 +39,9 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	/*{ "St",     NULL,       NULL,         1,             0,           -1 }, */
 	{ "firefox",  NULL,       NULL,       1 << 1,         0,           -1 },
-	{ "Steam",    NULL,       NULL,       0,               1,           -1 },
-	{ "Pavucontrol", NULL,    NULL,       0,               1,           -1 },
-  { "Discord",     NULL,    NULL,       0,               1,           -1 },
+	{ "steam",    NULL,       NULL,       0 << 5,               1,           -1 },
+	{ "Pavucontrol", NULL,    NULL,       1 << 7,               1,           -1 },
+  { "discord",     NULL,    NULL,       1 << 3,               1,           -1 },
 };
 
 /* layout(s) */
